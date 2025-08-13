@@ -25,6 +25,12 @@ p{
 h1{
     color: #64f0c9;
 }
+
+ul{
+    list-style-type: none;
+}
+
+
 /* header styling */
 
 .header{
@@ -37,7 +43,7 @@ h1{
 
 .header-text{
     font-size: 20px;
-    font-weight: 00;
+    font-weight: 700;
     color: #64f0c9;
     text-decoration: none;
 }
