@@ -10,15 +10,20 @@ html{
 
 body{
     background-color: #1a1b26;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
     display:flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
+    
 }
 
 p{
    color: #F4F4F4;
-   font-size: 18px;
+   font-size: 22px;
+}
+
+h1{
+    color: #64f0c9;
 }
 /* header styling */
 
@@ -26,8 +31,15 @@ p{
     background-color:   #1a1b26;
     display: flex;
     justify-content: flex-end;
-    padding: 20px 150px 20px 50px;
+    padding: 30px 150px 20px 50px;
     
+}
+
+.header-text{
+    font-size: 20px;
+    font-weight: 00;
+    color: #64f0c9;
+    text-decoration: none;
 }
 
 
@@ -35,10 +47,13 @@ p{
 .container1{
   background-color: #1a1b26;
   display: flex;
-  
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
   padding-top: 50px;
+}
+
+.title_text{
+    max-width: 400px;
 }
 
 
@@ -46,40 +61,53 @@ p{
 .container2{
     flex-grow: 1;
     text-align: center;
-    padding: 90px;
+    padding: 100px;
     
 }
 
 
 .title2{
-    color: #e6e6e6;
+    color: #64f0c9;
     font-size: 36px;
     font-weight: 900;
     text-align: center;
     padding-bottom: 50px;
+    
 }
+
 
 .info-cards{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap:90px;
     flex-wrap: wrap;
 }
 
 .card-mathzoo{
-    background-color: #ffd23f;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 195, 0);
     border-radius: 16px;
-    padding: 20px;
-    
-
-
+    padding: 25px;
+    height: 420px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(255, 209, 56, 0.5) 0px 15px 13px 2px, rgba(0, 0, 0, 0.5) 0px -8px 0px inset;
 }
 
 .card-pixel{
-    background-color: #ff2e63;
+    display: flex;
+    
+    flex-direction: column;
+    background-color: rgb(215, 15, 95);
+    align-items: center;
+    justify-content: center;
     border-radius: 16px;
-    padding: 20px
+    height: 420px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(247, 59, 134, 0.5) 0px 15px 13px 2px, rgba(0, 0, 0, 0.5) 0px -8px 0px inset;
 }
 
 
@@ -87,17 +115,31 @@ p{
     height: 250px;
     width: 250px;
     border-radius: 16px;
+    padding-bottom: 0px;
+    
+}
+
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-bottom: min(20px);
+    padding: 15px;
+    border-radius: 16px;
+    background-color: #1a1b26;
+    color: #F4F4F4;
+    gap: 10px;
+   
+}
+
+
+.test{
+    text-decoration: none;
 }
 
 
 
-
-
-
-.text1{
-    color: #E5E7EB;
-    font-size: 18px;
-}
 
 .button1{
     color: #E5E7EB;
@@ -136,10 +178,7 @@ ul{
 
 
 
-.box-text{
-    width: 150px;
-    padding-top: 20px;
-}
+
 
 
 
