@@ -186,24 +186,10 @@ ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* mathzoo ux page */
+
 .container1-mathzoo_ux{
-     background-color: #1a1b26;
+    background-color: #1a1b26;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centers horizontally */
@@ -211,11 +197,19 @@ ul{
 
 }
 
+.mathzoo-ux-title{
+    font-size: 70px;
+}
+
 .container2-mathzoo-ux{
     flex-grow: 1;
     text-align: center;
     padding: 90px;
-    
+}
+
+.paper{
+    max-height: auto;
+    max-width: 250px;
 }
 
 
