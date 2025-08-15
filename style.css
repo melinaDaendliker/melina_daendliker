@@ -42,12 +42,25 @@ ul{
     background-color:   #1a1b26;
     display: flex;
     justify-content: flex-end;
-    /*padding: 30px 150px 20px 50px;*/
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right:5%
-    
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 150px;
 }
+
+@media (max-width: 1024px) and (min-width: 601px) {
+  .header {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 
 .header-text{
     font-size: 20px;
@@ -68,6 +81,12 @@ ul{
 
 .title_text{
     max-width: 400px;
+}
+
+@media (max-width: 600px) {
+  .title_text {
+    max-width: 220px;
+  }
 }
 
 /* container two styling */
@@ -194,9 +213,9 @@ ul{
 }
 
 
-/* mathzoo us page */
+/* mathzoo ux page */
 
-.container1-mathzoo_ux{
+.container1-mathzoo_pages{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,7 +226,7 @@ ul{
 
 
 
-.mathzoo-ux-title{
+.mathzoo-title-pages{
     font-size: 70px;
 }
 
@@ -253,5 +272,25 @@ ul{
 .picture{
     max-width: 100%;
 }
+
+
+
+/* mathzoo pixel page */
+
+.section-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+    gap: 50px
+}
+
+.image-box{
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
 
 
