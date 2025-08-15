@@ -59,6 +59,27 @@ ul{
     padding-left: 20px;
     padding-right: 20px;
   }
+
+
+    .container1-mathzoo_pages{
+        background-color: #2fb6a7;
+    }
+
+    .row_1 {
+    display: block;
+    margin-bottom: 40px;
+    }
+
+   .row_2 {
+    display: block;
+  }
+  .picture{
+    padding-left: 20px;
+  }
+
+  .image-box{
+    display: block;
+  }
 }
 
 
@@ -306,24 +327,6 @@ ul{
     justify-content: center;
 }
 
-
-@media (max-width: 600px) {
-    .image-box{
-        display: block;
-
-    }
-    .row_1 {
-    display: block;
-    margin-bottom: 40px;
-  }
-
-   .row_2 {
-    display: block;
-  }
-  .picture{
-    padding-left: 20px;
-  }
-}
 
 
 
