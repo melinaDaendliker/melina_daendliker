@@ -308,12 +308,20 @@ ul{
 
 
 @media (max-width: 600px) {
-  .row_1 {
+    .image-box{
+        display: block;
+
+    }
+    .row_1 {
     display: block;
+    margin-bottom: 40px;
   }
 
-  .row_2 {
+   .row_2 {
     display: block;
+  }
+  .picture{
+    padding-left: 20px;
   }
 }
 
